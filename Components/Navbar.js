@@ -28,15 +28,15 @@ function Navbar() {
 
 
      <div>
-        <div className='flex justify-between w-full '>
+        <div className='flex justify-between w-full pl-28 '>
             <Image src="/images/work.jpg" alt='/'  width={87} height={35}  />
         </div>
-       <div className='my-4 text-base border-b border-gray-30 '>
+       <div className='my-4 text-base border-b border-gray-30  text-center'>
         <p className='w-[85%] md:w-[90%] py-4'>let!s buıldıng alıeswolf fıtnes</p>
        </div>
      </div>
 
-     <div className='flex flex-col py-4'>
+     <div className='flex flex-col py-4 items-center'>
         <ul className='uppercase border-b '>
             <Link href="/">
             <li className='py-4 text-lg '>home</li>
